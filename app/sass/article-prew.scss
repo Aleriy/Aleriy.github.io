@@ -1,4 +1,20 @@
 article {
-	background-color: pink;
-	padding: 16px;
+	text-align: center;
+	max-width: none;
+	background-color: #fff
+}
+
+.imege {
+    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center; /* и вертикали */
+    width: 166px; /* задали размеры блоку-родителю */
+    height: 146px;
+    overflow: hidden;
+}
+
+.text3 {
+	font-size: 9px;
+	color: #47c3f0;
+	line-height: 1.2;
 }

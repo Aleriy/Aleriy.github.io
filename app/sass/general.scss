@@ -1,0 +1,36 @@
+html {
+	font-family: "Myriad Pro";
+}
+
+img {
+/*	width: 100%;
+	max-width: 100%;*/
+	height: auto;
+	vertical-align: middle;
+}
+body {
+	background-color: #f2f3f3;
+	width: 360px;
+	margin: auto;
+	font-family: "Open Sans",arisl,sans-serif;
+}
+
+h2 {
+	/*margin: 0px;*/
+	font-size: 12px;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 9px;
+	color: #47c3f0;
+	line-height: 1.2;
+}
+
+h3::after {
+	content: '4.1';
+	border-radius: 2px;
+	padding: 2px 4px;
+	border: 1px solid #47c3f0;
+}
