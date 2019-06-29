@@ -1,0 +1,10 @@
+.block {
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/background-autor.jpg);
+}
+
+.block:hover {
+	background-color: #758362;
+	cursor: pointer;
+}

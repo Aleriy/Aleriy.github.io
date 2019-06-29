@@ -16,6 +16,13 @@ article {
     overflow: hidden;
 }
 
+.movie:hover {
+	content: "";
+	background-image: url('../img/btn-hower.png');
+/*	background: #786b59;*/
+	cursor: pointer;
+}
+
 .text3 {
 	font-size: 9px;
 	color: #47c3f0;
