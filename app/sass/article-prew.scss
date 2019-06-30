@@ -2,13 +2,11 @@ article {
 	border-radius: 0px 0px 4px 4px;
 	margin: 12px 0px;
 	text-align: center;
-	max-width: none;
+/*	max-width: none;*/
 	background-color: #fff
 }
 
-.movie {}
-
-.imege {
+.movie-imege {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -19,10 +17,15 @@ article {
 }
 
 .movie:hover {
-	content: "";
+/*	content: "";*/
 	background-image: url('../img/btn-hower.png');
 	cursor: pointer;
 }
+
+/*.movie:hover {
+	background-image: url('../img/btn-hower.png');
+	cursor: pointer;
+}*/
 
 .text3 {
 	color: #47c3f0;

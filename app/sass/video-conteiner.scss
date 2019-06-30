@@ -14,13 +14,21 @@
 /*  display: flex;
   justify-content: center;
   align-items: center;*/
-  background-image: url(../img/novideo.png);
+  background-image: url(../img/spritesheet.png);
+  background-position: -111px -5px;
+/*  width: 74px;
+  height: 56px;*/
   background-position: center;
   height: 260px;
   background-color: #cccccc;
   flex-grow: 4;
   background-repeat: no-repeat;
 }
+
+/*    width: 74px;
+    height: 56px;
+    background-position: -111px -5px;*/
+
 .video-conteiner__box2 {
   margin: 8px 4px 8px 4px;
   background-image: url(../img/novideo.png);
