@@ -1,6 +1,6 @@
-html {
+/*html {
 	font-family: "Myriad Pro";
-}
+}*/
 
 img {
 /*	width: 100%;
@@ -13,6 +13,10 @@ body {
 	width: 360px;
 	margin: auto;
 	font-family: "Open Sans",arisl,sans-serif;
+}
+
+h1 {
+	width: 100%;
 }
 
 h2 {
@@ -33,4 +37,12 @@ h3::after {
 	border-radius: 2px;
 	padding: 2px 4px;
 	border: 1px solid #47c3f0;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	padding: 12px;
 }

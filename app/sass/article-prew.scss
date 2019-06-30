@@ -1,20 +1,31 @@
 article {
+	border-radius: 0px 0px 4px 4px;
+	margin: 12px 0px;
 	text-align: center;
 	max-width: none;
 	background-color: #fff
 }
 
+.movie {}
+
 .imege {
     display:flex;
-    justify-content: center; /*центрируем элемент по горизонтали */
-    align-items: center; /* и вертикали */
-    width: 166px; /* задали размеры блоку-родителю */
+    justify-content: center;
+    align-items: center;
+    width: 166px;
     height: 146px;
     overflow: hidden;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.movie:hover {
+	content: "";
+	background-image: url('../img/btn-hower.png');
+	cursor: pointer;
 }
 
 .text3 {
-	font-size: 9px;
 	color: #47c3f0;
+	font-size: 9px;
 	line-height: 1.2;
 }
