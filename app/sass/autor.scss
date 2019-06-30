@@ -7,9 +7,10 @@
 }
 
 .author__text {
-	font-size: 16px;
+	font-size: 32px;
 	color: #fff;
 	line-height: 1.2;
+/*	  text-align: center;*/
 }
 
 .autor__wrap {
@@ -18,16 +19,40 @@
 	align-items: center;
 }
 
-.autor__mail {
+.autor__name {
 	margin: 0px;
 	padding: 0px;
 	border-radius: 0px;
 	border-width: 0px;
 	width: 100%;
+	font-size: 24px;
+	line-height: 1.833;
+	background-color: #c5c6c7;
+	border-radius: 4px;
+}
+
+.autor__mail {
+	margin: 8px;
+	padding: 0px;
+	border-radius: 0px;
+	border-width: 0px;
+	width: 100%;
+	font-size: 24px;
+	line-height: 1.833;
+	background-color: #c5c6c7;
+	border-radius: 4px;
 }
 
 .author__btn {
-
 	width: 100%;
 	background-color: #3bb4e0;
+	font-size: 24px;
+	line-height: 1.833;
+	color: #FFF;
+	border-radius: 4px;
+}
+
+.author__btn:hover {
+	background-color: #ed0030;
+	cursor: pointer;
 }
