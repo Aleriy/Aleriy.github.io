@@ -238,6 +238,10 @@ body{
     margin-bottom: 83px;
 }
 
+.footer-btn .button:hover{
+background-color: #0B0B0B;
+}
+
 .footer-copy{
     text-align: center;
     font-weight: 700;
