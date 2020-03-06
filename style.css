@@ -256,5 +256,5 @@ body{
 .footer-copy li + li::before{
     content: "|";
     position: absolute;
-    left: -5;
+    left: -5px;
 }
